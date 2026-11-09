@@ -22,6 +22,7 @@ window.ROSTER = {
     {n:"", first:"Maurizio",   last:"Mazzieri",    role:"General manager",      photo:"mazzieri",    full:"img/players/full/mazzieri.jpg"},
     {n:"", first:"Andrea",     last:"Mazzotti",    role:"Responsabile media",   photo:"mazzotti",    full:"img/players/full/mazzotti.jpg"},
     {n:"", first:"Francesca",  last:"Miccoli",     role:"Social media manager", photo:"miccoli",     full:"img/players/full/miccoli.jpg"},
+    {n:"", first:"Mascia",     last:"Vollero",     role:"Public relations manager", photo:"vollero", full:"img/players/full/vollero.jpg"},
     {n:"", first:"Alessandro", last:"Adamidis",    role:"Fisioterapista",       photo:"adamidis",    full:"img/players/full/adamidis.jpg"}
   ]
 };

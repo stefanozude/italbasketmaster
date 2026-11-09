@@ -325,7 +325,7 @@ dialog .txt p{margin:14px 0 0;font-size:17px;max-width:65ch}
 dialog .close{position:sticky;top:0;display:block;margin:10px 10px -52px auto;width:42px;height:42px;border-radius:50%;border:0;background:var(--night);color:var(--white);font-size:22px;cursor:pointer;z-index:2}
 
 /* player cards — NBA-style headshot on team gradient */
-.pcard{position:relative;display:grid;grid-template-rows:auto auto;padding:0;border:0;background:none;cursor:pointer;text-align:left;font:inherit;color:inherit;min-width:0}
+.pcard{position:relative;display:grid;grid-template-rows:auto auto;align-content:start;padding:0;border:0;background:none;cursor:pointer;text-align:left;font:inherit;color:inherit;min-width:0}
 .pc-ph{position:relative;display:block;aspect-ratio:600/632;overflow:hidden;
   background:radial-gradient(80% 60% at 50% 30%,rgba(26,127,227,.55),transparent 70%),repeating-linear-gradient(-55deg,rgba(255,255,255,0) 0 18px,rgba(255,255,255,.035) 18px 20px),linear-gradient(165deg,#1B4E9E 0%,#0C2452 55%,#06132D 100%)}
 .pc-num{position:absolute;right:6px;top:-8px;font:900 170px/.8 var(--f-display);color:rgba(255,255,255,.1);letter-spacing:-.02em;transition:color .3s}
