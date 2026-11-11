@@ -406,7 +406,8 @@ const partners=[
   ["#MaiSenza","maisenza","https://www.mai-senza.com/"],
   ["44 Parallelo Tours","44-parallelo","http://www.44parallelo.com/"],
   ["Pit Stop","pitstop",""],
-  ["Ristorante I Tre Fratelli","tre-fratelli","https://www.instagram.com/ristorante_itrefratellilugo/"]
+  ["Ristorante I Tre Fratelli","tre-fratelli","https://www.instagram.com/ristorante_itrefratellilugo/"],
+  ["Linea Ambiente Industries","linea-ambiente","https://www.lineaambiente.it/"]
 ];
 document.getElementById('logos').innerHTML=partners.map(([n,f,u])=>u?`<a class="logo" href="${u}" target="_blank" rel="noopener sponsored" title="${n} – apri il sito"><img src="img/sponsor/${f}.png" alt="${n}"></a>`:`<div class="logo"><img src="img/sponsor/${f}.png" alt="${n}"></div>`).join('')+`<a class="logo you" href="#contatti"><b>Il tuo logo qui</b><span>Diventa partner →</span></a>`;
 
